@@ -7,7 +7,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
-import {ISimpleSwap} from "verificador.sol";
+import {ISimpleSwap} from "contracts/trabajo-3-uniswap/verificador.sol";
 
 contract SwapVerifier {
 
@@ -73,9 +73,5 @@ contract SwapVerifier {
         // Add author
         authors.push(author);
     }
-function verSupplyTA(address tokenA) external view returns (uint256, uint256) {
-    uint256 supply = IERC20(tokenA).totalSupply();
-    uint256 supplyContract = IERC20(tokenA).balanceOf(address(this));
-    return (supply, supplyContract);
-}
+
 }
