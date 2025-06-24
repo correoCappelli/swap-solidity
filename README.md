@@ -117,7 +117,3 @@ MIT
 
 ---
 
-## 🧑‍💻 Author
-
-Contract logic and architecture by [correoCappelli](https://github.com/correoCappelli)  
-Validator contract maintained by external reviewers for integrity checks.
