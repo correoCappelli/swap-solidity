@@ -9,8 +9,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TokenA is IERC20, ERC20  {
 
-constructor() ERC20("tokenA", "TOKA") {
-    _mint(msg.sender, 80 ether); // gwei
+constructor() ERC20("tokenA", "TOKA2") {
+    _mint(msg.sender, 80); // gwei
 }
 
 function decimals() public pure override  returns (uint8) {
@@ -28,7 +28,7 @@ function getBalanceOf(address account) external view returns (uint256){
 }
 
 function mintTo(address to, uint256 amount) external {
-        _mint(to, amount * 1 ether);
+        _mint(to, amount);
     }
     
 }
