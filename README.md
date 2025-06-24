@@ -8,6 +8,10 @@ A lightweight decentralized exchange built in Solidity using a constant product 
 
 [correoCappelli/swap-solidity](https://github.com/correoCappelli/swap-solidity.git)
 
+## 📦 Validator Contract
+
+0x9f8F02DAB384DDdf1591C3366069Da3Fb0018220
+
 ---
 
 ## 🧠 Overview
